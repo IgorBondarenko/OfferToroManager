@@ -31,5 +31,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     implementation 'com.github.IgorBondarenko:OfferUtils:1.1.4'
-    implementation (name: 'OfferToroSdk-v3.1.11', ext: 'aar')
+//    implementation (name: 'OfferToroSdk-v3.1.11', ext: 'aar')
+
+    implementation 'com.offerutils.lib:OfferToroSdk-v3.1.11@aar'
 }
