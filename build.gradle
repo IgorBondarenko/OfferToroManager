@@ -24,6 +24,7 @@ allprojects {
         }
         flatDir{
             dirs 'libs'
+            dirs project(':offertoromanager').file('libs')
         }
     }
 }
